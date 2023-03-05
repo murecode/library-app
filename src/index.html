@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta charset="UTF-8" />
+ <title>Minimal JS Front-End App Example</title>
+ <link rel="stylesheet" href="/src/style.css">
+
+ <script src="c/initialize.js"></script>
+ <script src="m/Libro.js"></script>
+ 
+</head>
+<body>
+  
+  <h1>Librería App</h1>
+  <h2>Un ejemplo de una aplicacion Front-End Javascript</h2>
+  <p>Esta aplicacion soporta las siguientes operaciones:</p>
+  
+  <menu>
+    <li><a href="crearLibro.html">Crear un nuevo libro</a></li>
+    <li><a href="listarLibros.html">Lista de libros</a></li>
+    <li><a href="actualizarLibro.html">Actualizar libro</a></li>
+    <li><a href="eliminarLibro.html">Eliminar libro</a></li>
+
+    <li> 
+      <button type="button" onclick="Libro.crearDB()">
+        Crear base de datos
+      </button>
+    </li>
+
+    <li>
+      <button type="button" onclick="Libro.limpiarDB()">
+        Limpiar base de datos
+      </button>
+    </li>
+    
+    </menu>
+    
+    
+
+
+</body>
+</html>
